@@ -2,21 +2,21 @@
 
 Sergey Levchuk
 
-2. E-mail:
+**2. E-mail:**
 
 serlevchuk@yandex.ru
 
-3. Brief information about yourself
+**3. Brief information about yourself**
 
 Created a project of a logging machine simulator in the "Unity" environment in the C#, I am studying javascript, I am striving to become a Frontend developer, I have the ability to quickly learn new material, since the field of programming is interesting to me. I also plan to learn the Ruby-on-Rails network.
 
-4. My Skills
+**4. My Skills**
 
 C# Junior, Ruby-I studied it myself, now studying Javascript
 
-5. Code example
+**5. Code example**
 
-C#:
+*C#:*
 
 private void MoveHor() {
 
@@ -69,14 +69,14 @@ private void MoveVer() {
   _verTrLeft.rotation = Quaternion.Euler(0, 0, _verTrLeft.localPosition.y < 0 ? 180.0f : 0);
 
 }
-6. projects with my participation
+**6. projects with my participation**
 
 Harvester simulator on Unity, sets of psychophysiological tests
 
-7. Education
+**7. Education**
 
 Radio Engineering Faculty, Volga State University, Russia, master's degree
 
-8. english language level
+**8. english language level**
 
 B1 level
