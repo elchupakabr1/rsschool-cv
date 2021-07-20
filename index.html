@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <br><br><br>
+
+<header>
+  <h3>My CV</h3><br>
+</header>
+<article>
+
+
+<ava><img src="images/1.jpg" alt="My Photo" width="480" height="360"></ava>
+    <ol>
+<li><h3>Name: </h3><br>Sergey Levchuk <br></li>
+
+<li><h3>E-mail:</h3><br>serlevchuk@yandex.ru<br>
+
+<li><h3>Brief information about yourself</h3><br>
+  Created a project of a logging machine simulator in the "Unity" environment in the C#, I am studying javascript, I am striving to become a Frontend developer, I have the ability to quickly learn new material, since the field of programming is interesting to me. I also plan to learn the Ruby-on-Rails network.<br></li>
+
+<li><h3>My Skills</h3><br>
+  C# Junior, Ruby-I studied it myself, now studying Javascript<br></li>
+
+<li><h3>Code example</h3><br><h5>C#:</h5><br>
+<code>
+  private void MoveHor() {
+  if (!Input.anyKey) return;
+  if (Input.GetKey(_keyToMoveLeft) && IsCanMove(_horTrRight, Vector3.left * Time.deltaTime * _speed))
+  _horTrRight.localPosition += Vector3.left * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveRight) && IsCanMove(_horTrRight, Vector3.right * Time.deltaTime * _speed))
+  _horTrRight.localPosition += Vector3.right * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveLeftSecond) && IsCanMove(_horTrLeft, Vector3.left * Time.deltaTime * _speed))
+  _horTrLeft.localPosition += Vector3.left * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveRightSecond) && IsCanMove(_horTrLeft, Vector3.right * Time.deltaTime * _speed))
+  _horTrLeft.localPosition += Vector3.right * Time.deltaTime * _speed;
+  _horTrRight.rotation = Quaternion.Euler(0, 0, _horTrRight.localPosition.x < 0 ? 90 : -90.0f);
+  _horTrLeft.rotation = Quaternion.Euler(0, 0, _horTrLeft.localPosition.x < 0 ? 90 : -90.0f);
+}
+private void MoveVer() {
+  if (!Input.anyKey) return;
+  if (Input.GetKey(_keyToMoveUp) && IsCanMove(_verTrRight, Vector3.up * Time.deltaTime * _speed))
+  _verTrRight.localPosition += Vector3.up * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveDown) && IsCanMove(_verTrRight, Vector3.down * Time.deltaTime * _speed))
+  _verTrRight.localPosition += Vector3.down * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveUpSecond) && IsCanMove(_verTrLeft, Vector3.up * Time.deltaTime * _speed))
+  _verTrLeft.localPosition += Vector3.up * Time.deltaTime * _speed;
+  if (Input.GetKey(_keyToMoveDownSecond) && IsCanMove(_verTrLeft, Vector3.down * Time.deltaTime * _speed))
+  _verTrLeft.localPosition += Vector3.down * Time.deltaTime * _speed;
+  _verTrRight.rotation = Quaternion.Euler(0, 0, _verTrRight.localPosition.y < 0 ? 180.0f : 0);
+  _verTrLeft.rotation = Quaternion.Euler(0, 0, _verTrLeft.localPosition.y < 0 ? 180.0f : 0);
+}
+</code>
+<br></li>
+<li><h3>Projects with my participation</h3><br>
+Harvester simulator on Unity, sets of psychophysiological tests<br></li>
+
+<li><h3>Education</h3><br>
+Radio Engineering Faculty, Volga State University, Russia, master's degree<br></li>
+
+<li><h3>English language level</h3><br>
+B1 level<br></li>
+</ol>
+<br><br><br>
+</article>
+<footer>
+  <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-school" width="200" height="auto" ></a><br><br>
+Github: https://github.com/elchupakabr1 <br>
+2021 <br>
+
+</footer>
+  </body>
+</html>
