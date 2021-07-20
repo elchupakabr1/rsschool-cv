@@ -1,13 +1,10 @@
 body{
   font-style: oblique;
   background-color: #e6e3df;
-  border-radius: 5%;
-  border-style: groove;
-  border-color: red;
-  border-width: medium;
+
 
 }
-img{
+ava{
   float: right;
   box-shadow: 10px,5px,9px,2px,black;
 }
@@ -21,3 +18,8 @@ code {
   color: green;
 white-space: pre;
 }
+footer{
+  text-align: center;
+}
+
+ }
